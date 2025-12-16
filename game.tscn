@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=3 uid="uid://ketjmet4j8cr"]
+
+[ext_resource type="Script" uid="uid://dskpa1c7yh83u" path="res://game.gd" id="1_80nbo"]
+
+[node name="Game" type="Node"]
+script = ExtResource("1_80nbo")
+
+[node name="Shadow" type="Label" parent="."]
+offset_left = 317.0
+offset_top = 153.0
+offset_right = 799.0
+offset_bottom = 257.0
+theme_override_colors/font_color = Color(0, 0, 0, 0.498039)
+autowrap_mode = 2
+
+[node name="Text" type="Label" parent="."]
+offset_left = 317.0
+offset_top = 68.0
+offset_right = 799.0
+offset_bottom = 172.0
+text = "the length of the array is tested first it has to be the same size as the pattern otherwise the pattern doesnt match"
+autowrap_mode = 2
+
+[node name="Label" type="Label" parent="."]
+offset_left = 317.0
+offset_top = 153.0
+offset_right = 799.0
+offset_bottom = 257.0
+text = "type this text in the box below correctly as quick as you can"
+autowrap_mode = 2

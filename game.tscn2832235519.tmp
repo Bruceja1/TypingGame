@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://ketjmet4j8cr"]
+
+[ext_resource type="Script" uid="uid://dskpa1c7yh83u" path="res://game.gd" id="1_80nbo"]
+
+[node name="Game" type="Node"]
+script = ExtResource("1_80nbo")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 470.0
+offset_top = 182.0
+offset_right = 1018.0
+offset_bottom = 299.0
