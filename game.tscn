@@ -28,3 +28,19 @@ offset_right = 799.0
 offset_bottom = 257.0
 text = "type this text in the box below correctly as quick as you can"
 autowrap_mode = 2
+
+[node name="WPM" type="Label" parent="."]
+offset_left = 917.0
+offset_top = 15.0
+offset_right = 957.0
+offset_bottom = 38.0
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Seconds" type="Label" parent="."]
+offset_left = 516.0
+offset_top = 8.0
+offset_right = 556.0
+offset_bottom = 31.0
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
